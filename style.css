@@ -1,0 +1,12 @@
+
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#0b1020,#0f1830);color:#eef4ff}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:240px;background:#121a34;border-right:1px solid #30446f;padding:20px}
+.sidebar a{display:block;color:#9ec5ff;text-decoration:none;margin:10px 0}
+.sidebar a:hover{color:#6ee7b7}
+.main{flex:1;padding:30px;max-width:1200px;margin:auto}
+.panel{background:rgba(19,27,50,.95);border:1px solid #30446f;border-radius:14px;padding:20px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+button{background:#2563eb;border:none;padding:10px 16px;border-radius:6px;color:white;cursor:pointer}
+input{padding:8px;width:100%}
+canvas{background:#111a30;border-radius:10px;padding:10px}
