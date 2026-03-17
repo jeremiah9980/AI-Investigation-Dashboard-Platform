@@ -1,6 +1,6 @@
 // Google Analytics 4
 (function () {
-  const GA_ID = "G-FP3814PJVM";
+  const GA_ID = "G-N24JY7P7PM";
 
   const script = document.createElement("script");
   script.async = true;
